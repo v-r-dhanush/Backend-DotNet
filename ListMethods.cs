@@ -35,7 +35,7 @@ namespace studentApp
         List<string> fruits = new List<string>() { "apple", "orange", "banana" };
         public void showListTask()
         {
-            Console.WriteLine("-----------------Menu-------------------");
+            Console.WriteLine("----------------- Menu -------------------");
             Console.WriteLine("1.Display Fruits");
             Console.WriteLine("2.Add Fruits");
             Console.WriteLine("3.Update Fruits");
