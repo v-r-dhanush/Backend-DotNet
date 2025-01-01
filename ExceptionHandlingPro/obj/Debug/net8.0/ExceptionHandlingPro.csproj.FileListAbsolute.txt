@@ -1,0 +1,14 @@
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\bin\Debug\net8.0\ExceptionHandlingPro.exe
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\bin\Debug\net8.0\ExceptionHandlingPro.deps.json
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\bin\Debug\net8.0\ExceptionHandlingPro.runtimeconfig.json
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\bin\Debug\net8.0\ExceptionHandlingPro.dll
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\bin\Debug\net8.0\ExceptionHandlingPro.pdb
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.AssemblyInfoInputs.cache
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.AssemblyInfo.cs
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.csproj.CoreCompileInputs.cache
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.dll
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\refint\ExceptionHandlingPro.dll
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.pdb
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ExceptionHandlingPro.genruntimeconfig.cache
+D:\Dhanush\Backend\Dotnet\ExceptionHandlingPro\obj\Debug\net8.0\ref\ExceptionHandlingPro.dll
