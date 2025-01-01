@@ -36,6 +36,7 @@ namespace FileInfoEg
             //fil.file();
 
 
+
             //StreamWriters sw = new StreamWriters();
             //sw.streamwrite();
 
