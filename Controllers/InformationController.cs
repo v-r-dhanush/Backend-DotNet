@@ -45,7 +45,7 @@ namespace MyDemoApp.Controllers
         {
             context.Update(inform);
             await context.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index"); 
         }
 
         [HttpPost]
