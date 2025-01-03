@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Create Information";
+}
+@model Information
+
+<h1 class="bg-danger text-black">Create Information</h1>
+<form method="Post">
+    <div class="form-group">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+    </div class="form-group">
+    <div>
+        <label asp-for="License">License:</label>
+        <input asp-for="License" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Established">Established:</label>
+        <input type=date asp-for="Established" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Revenue">Revenue:</label>
+        <input asp-for="Revenue" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-outline-success">Create</button>
+</form>
