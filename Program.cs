@@ -28,5 +28,6 @@ internal class Program
         //Inheritance.Teacher t = new Inheritance.Teacher(i.person[0]);
         //Inheritance.Student s = new Inheritance.Student(i.person[1]);
         //Inheritance.Student s1 = new Inheritance.Student(i.person[2]);
+
     }    
 }
