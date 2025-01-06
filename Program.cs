@@ -4,8 +4,8 @@ using static CsharpTask.PhotoBook;
 
 internal class Program
 {
-    private static void Main(string[] args)
-    {
+    //private static void Main(string[] args)
+    //{
         //Console.WriteLine("Photo Book assignment");
         //PhotoBook p = new PhotoBook();
         //p.GetNumberPages();
@@ -29,5 +29,5 @@ internal class Program
         //Inheritance.Student s = new Inheritance.Student(i.person[1]);
         //Inheritance.Student s1 = new Inheritance.Student(i.person[2]);
 
-    }    
+    //}    
 }
