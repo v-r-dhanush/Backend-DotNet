@@ -61,7 +61,7 @@ namespace MakemytripApp.Controllers
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     ViewBag.Result = "Success";
-                    receivedReservation = JsonConvert.DeserializeObject<Reservation>(apiResponse);
+                    receivedReservation = JsonConvert.DeserializeObject<Reservation>(apiResponse);  
                 }
             }
             return View(receivedReservation); 
