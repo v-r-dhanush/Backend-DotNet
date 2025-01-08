@@ -64,7 +64,7 @@ namespace MakemytripApp.Controllers
                     receivedReservation = JsonConvert.DeserializeObject<Reservation>(apiResponse);
                 }
             }
-            return View(receivedReservation);
+            return View(receivedReservation); 
         }
 
         public ViewResult AddReservation() => View();
