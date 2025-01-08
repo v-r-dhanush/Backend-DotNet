@@ -26,6 +26,9 @@ namespace MyDemoApp.Controllers
 
         public IActionResult Index()
         {
+           // ViewBag.CurrentDataTime = DataTime.Now;
+            //ViewBag.CurrentYear = DataTime.Now.Year;
+            //ViewBag.CurrentUser = "Guest1";
             return View(context.Department.AsNoTracking());
         }
 

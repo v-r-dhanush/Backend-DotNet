@@ -1,4 +1,9 @@
-﻿
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<h2>
+    Current Datetime and year: @HttpContextAccessor.HttpContext.Session.GetString("CurrentDateTime"),
+    @HttpContextAccessor.HttpContext.Session.GetInt32("CurrentYear");
+</h2>
+
 @{
     ViewData["Title"] = "Department List";
 }
@@ -7,6 +12,7 @@
 <h1 class="bg-danger text-black">Department List</h1>
 <a asp-action="Create" class="btn btn-outline-warning
 ">Create Department</a>
+
 <table class="table table-sm table-bordered">
     <tr>
         <th>Id</th>

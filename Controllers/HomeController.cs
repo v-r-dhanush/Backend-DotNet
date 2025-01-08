@@ -1,3 +1,4 @@
+using System.Data;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyDemoApp.Models;
@@ -44,6 +45,30 @@ namespace MyDemoApp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult ViewBagExample()
+        {
+            ViewBag.CurrentDateTime = DateTime.Now;
+            ViewBag.CurrentYear = DateTime.Now.Year;
+            ViewBag.CurrentUser = "Dhanush";
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult TempDataExample()
+        {
+            TempData["CurrentDateTime"] = DateTime.Now;
+            TempData["CurrentYear"] = DateTime.Now.Year;
+            TempData["CurrentUser"] = "Arun";
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult SessionExample()
+        {
+            HttpContext.Session.SetString("CurrentDateTime", DateTime.Now.ToString());
+            HttpContext.Session.SetInt32("CurrentYear", DateTime.Now.Year);
+            HttpContext.Session.SetString("CurrentUser", "Admin");
+            return RedirectToAction("Index");
         }
     }
 }
