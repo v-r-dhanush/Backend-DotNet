@@ -67,7 +67,7 @@ namespace MyDemoApp.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var emp = new Employee() { Id = id };
-            context.Remove(emp);
+            context.Remove(emp); 
             await context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
