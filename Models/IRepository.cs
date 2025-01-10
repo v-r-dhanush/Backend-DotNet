@@ -8,7 +8,7 @@
 
         public void DeleteReservation(int id);
 
-        public IEnumerable<ReactMakeMyTrip> Reservations { get; }
+        public IEnumerable<ReactMakeMyTrip> Reservations { get; } 
 
         public ReactMakeMyTrip this[int id] { get; }
     }
